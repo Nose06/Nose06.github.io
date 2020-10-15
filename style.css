@@ -1,0 +1,145 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.sticky {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #f5f5f6;
+    text-decoration: none;
+}
+    
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    /*show heigh: auto*/
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    width: 20rem;
+
+}
+
+
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+ .box > img {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 20px;
+    }
+
+
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+}
+
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.purple {
+    background: #e7e7e7; /* Old browsers */
+    background: -moz-linear-gradient(top, #e7e7e7 0%, #9d93ad 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e7e7e7), color-stop(100%,#9d93ad)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e7e7e7 0%,#9d93ad 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e7e7e7 0%,#9d93ad 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e7e7e7 0%,#9d93ad 100%); /* IE10+ */
+    background: linear-gradient(top, #e7e7e7 0%,#9d93ad 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.back {
+    background:  #a4e3fb; /* Old browsers */   
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.end {
+    background: #a4e3fb; /* Old browsers */
+    background: -moz-linear-gradient(top, #a4e3fb 0%, #e7e7e7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4e3fb), color-stop(100%,#e7e7e7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #a4e3fb 0%,#e7e7e7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #a4e3fb 0%,#e7e7e7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #a4e3fb 0%,#e7e7e7 100%); /* IE10+ */
+    background: linear-gradient(top, #a4e3fb 0%,#e7e7e7 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
